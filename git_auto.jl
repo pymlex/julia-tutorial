@@ -22,7 +22,7 @@ for line in lines
     end
 
     if endswith(file_name, ".jl") && occursin(r"^\[\d+\]", file_name)
-        m = match(r"^\[\d+\]\s*(.*?)\.jl$", file_name)
+        local m = match(r"^\[\d+\]\s*(.*?)\.jl$", file_name)
         if m !== nothing
             push!(commit_names, m.captures[1])
         end
