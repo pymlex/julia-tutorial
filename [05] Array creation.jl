@@ -43,7 +43,7 @@ end
 f_sq = [i^2 for i in 1:10]
 println("f_sq:\n$f_sq")
 
-# Matrix creation
+# Matrix traversal
 println("\nMatrix creation:")
 m = [1 2 3; 4 5 6; 7 8 9]
 for i in 1:3, j in 1:3
