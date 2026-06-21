@@ -6,13 +6,6 @@ s = 0
 s = "Hello world"
 println(s)
 
-try 
-    x::Int64 = 10
-    x = "Pizza"
-catch e
-    println("Error: $e")
-end
-
 # Type Declaration
 a::Float32 = 1.0
 b::UInt16 = 2
@@ -34,3 +27,8 @@ println(parse(Int128, "123")) # Parse the string as an Int128
 # Type Inference
 x = 10
 println(typeof(x))
+
+# Symbols
+println(pi)
+println(:pi)
+println(Float64(pi))
