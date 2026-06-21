@@ -4,8 +4,8 @@ using Statistics
 # Indexing strings
 s = "Hello World\n"
 println(length(s))
-println(s[1])
-println(s[2:4])
+println(s[1]) # the first character
+println(s[2:4]) # the second to fourth character
 println(s[end])
 
 # String concatenation

@@ -45,5 +45,5 @@ for kv in d
 end
 
 for (k, v) in d
-    println("$k => $v")
+    println("$k worth $v dollars")
 end
