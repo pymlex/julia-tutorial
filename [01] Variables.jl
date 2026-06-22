@@ -32,3 +32,8 @@ println(typeof(x))
 println(pi)
 println(:pi)
 println(Float64(pi))
+
+# Input handling
+x = chomp(readline())
+x = parse(Int, x)
+println(x + 10)

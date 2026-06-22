@@ -18,3 +18,8 @@ sentence = "Who knows? Not me."
 words = split(sentence)
 longest = reduce((x, y) -> length(x) > length(y) ? x : y, words)
 println(longest)
+
+# Input handling
+input_str = chomp(readline())
+numbers = parse.(Int, split(input_str)) 
+println(numbers)
