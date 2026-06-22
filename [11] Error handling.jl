@@ -14,3 +14,7 @@ try
 catch e
     println("Error: $e")
 end
+
+# Assertions
+a = 1 + 1
+@assert(a == 2)
