@@ -28,6 +28,13 @@ println(A') # Equivalent to transpose(A)
 println("inv(A) =")
 println(inv(A))
 
+println("det(A) = ", det(A))
+println("rank(A) = ", rank(A))
+println("trace(A) = ", trace(A))
+println("norm(A) = ", norm(A))
+println("cond(A) = ", cond(A)) # Condition number - how close A is to being singular
+println("eigvals(A) = ", eigvals(A))
+println("eigvecs(A) = ", eigvecs(A))
 
 B = [1.0 0.0; 0.0 1.0; 1.0 1.0]
 println("B =")
