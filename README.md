@@ -17,24 +17,32 @@ b = a .^ 2
 println(b)
 ```
 
-Here we present examples of the core syntax of the language. This is a code-along of Derek Banas's one-hour Julia tutorial, with some additional snippets.
+Here we present examples of the core syntax of the language. Lessons 1–12 follow Derek Banas's one-hour Julia tutorial as a code-along, with some additional snippets. Lessons 13–17 extend the track with linear algebra in `LinearAlgebra` and `SparseArrays`.
 
 ## Lesson map
 
-| File | Topics |
-|------|--------|
-| `[01] Variables.jl` | Dynamic typing, type assertions, numeric types, casting |
-| `[02] Strings.jl` | Indexing, concatenation, interpolation, multiline strings |
-| `[03] Conditions.jl` | `if` / `elseif` / `else`, logical operators, ternary form |
-| `[04] Loops.jl` | `while`, `for`, ranges, `break`, `continue`, `global` |
-| `[05] Array creation.jl` | Constructors, comprehensions, multidimensional arrays |
-| `[06] Array processing.jl` | Indexing, `map`, `filter`, reductions, broadcasting |
-| `[07] Containers.jl` | Tuples, dictionaries, sets |
-| `[08] Functions.jl` | Definitions, defaults, varargs, overloading, nesting |
-| `[09] Functional programming.jl` | Anonymous functions, `map`, `reduce` |
-| `[10] Structures.jl` | `@enum`, `struct`, abstract types and subtyping |
-| `[11] Error handling.jl` | `try` / `catch`, custom exceptions |
-| `[12] File IO.jl` | `open`, `read`, `readlines`, `write` |
+**Core syntax** — from Derek Banas
+
+1. Variables — dynamic typing, type assertions, numeric types, casting
+2. Strings — indexing, concatenation, interpolation, multiline strings
+3. Conditions — `if` / `elseif` / `else`, logical operators, ternary form
+4. Loops — `while`, `for`, ranges, `break`, `continue`, `global`
+5. Array creation — constructors, comprehensions, multidimensional arrays
+6. Array processing — indexing, `map`, `filter`, reductions, broadcasting
+7. Containers — tuples, dictionaries, sets
+8. Functions — definitions, defaults, varargs, overloading, nesting
+9. Functional programming — anonymous functions, `map`, `reduce`
+10. Structures — `@enum`, `struct`, abstract types and subtyping
+11. Error handling — `try` / `catch`, custom exceptions
+12. File IO — `open`, `read`, `readlines`, `write`
+
+**Linear algebra**
+
+13. Linear algebra basics — vectors, matrices, `dot`, `norm`, transpose, inverse, matrix–vector products
+14. Reshaping and views — `reshape`, `vec`, `@view`
+15. Linear systems — `A \ b`, `b / A`, tridiagonal systems
+16. Factorization — LU, QR, Cholesky
+17. Sparse matrices — `Tridiagonal`, `spdiagm`, sparse storage
 
 ## Usage
 
@@ -48,7 +56,7 @@ Automated commits and pushes are handled by `git_auto.jl`, which derives the com
 
 ## References
 
-The scripts in this repository are substantially a structured summary of the following video tutorial. Topic order and many examples trace back to that source.
+The scripts in lessons 1–12 are substantially a structured summary of the following video tutorial. Topic order and many examples in that block trace back to that source. Lessons 13–17 are original linear algebra material and do not follow the video.
 
 ```bibtex
 @misc{banas2018julia,
