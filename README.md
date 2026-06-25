@@ -21,8 +21,6 @@ Here we present examples of the core syntax of the language. Lessons 1–12 foll
 
 ## Lesson map
 
-**Core syntax** — from Derek Banas
-
 1. Variables — dynamic typing, type assertions, numeric types, casting
 2. Strings — indexing, concatenation, interpolation, multiline strings
 3. Conditions — `if` / `elseif` / `else`, logical operators, ternary form
@@ -56,7 +54,7 @@ Automated commits and pushes are handled by `git_auto.jl`, which derives the com
 
 ## References
 
-The scripts in lessons 1–12 are substantially a structured summary of the following video tutorial. Topic order and many examples in that block trace back to that source. Lessons 13–17 are original linear algebra material and do not follow the video.
+The scripts in lessons 1–12 are substantially a structured summary of the following video tutorial. Lessons 13–17 are original linear algebra material.
 
 ```bibtex
 @misc{banas2018julia,
