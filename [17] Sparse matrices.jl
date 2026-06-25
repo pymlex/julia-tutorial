@@ -16,7 +16,7 @@ x = T \ b
 println("x = ", x)
 println("residual norm = ", norm(T * x - b))
 
-S = spdiagm(-1 => dl, 0 => d, 1 => du)
-println("\nSparse matrix nnz = ", nnz(S))
+S = spdiagm(-1 => dl, 0 => d, 1 => du) # Sparse matrix from diagonals
+println("\nSparse matrix nnz = ", nnz(S)) # Number of non-zero elements
 println("Matrix type = ", typeof(S))
 println("Dense and sparse agree = ", norm(Matrix(S) * x - b))
